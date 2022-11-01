@@ -1,0 +1,86 @@
+.footer-content{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.RedesSociais{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.Contato{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.Projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.Sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.p-footer{
+    font-size: 0.8rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.h1-footer{
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+.p-footer:hover{
+    color: rgb(240, 4, 248);
+}
+.p-lucas{
+    font-size: 0.8rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(240, 4, 248);
+}
+@media (max-width: 1000px) {
+    .h1-footer{
+        font-size: 0.8rem;
+    }
+    .p-footer{
+        font-size: 0.6rem;
+    }
+    .p-lucas{
+        font-size: 0.6rem;
+    }
+    .footer-content{
+        padding: 20px 20px;
+    }
+}
+@media (max-width: 500px) {
+    .h1-footer{
+        font-size: 0.7rem;
+    }
+    .p-footer{
+        font-size: 0.6rem;
+    }
+    .p-lucas{
+        font-size: 0.6rem;
+    }
+    .footer-content{
+        padding: 20px;
+    }
+}
+    

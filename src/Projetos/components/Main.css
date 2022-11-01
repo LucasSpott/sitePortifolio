@@ -1,0 +1,81 @@
+.dragonRecorder{
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+.projects{
+    display: flex;
+    margin-top: 5rem;
+}
+.projectsText{
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.txt-Projecth1{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(253, 253, 253);
+}
+.txt-Project{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(253, 253, 253);
+}
+.projects2{
+    display: flex;
+    margin-top: 5rem;
+}
+.projectsText2{
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.spotifyGift{
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+.txt-Projecth12{
+    margin-left: 10rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(253, 253, 253);
+}
+.linkGit{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.maisaqui{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(253, 253, 253);
+}
+.linkGit:hover{
+    color: rgb(233, 12, 196);
+}
+.mainProject{
+    animation: totalMove 1s;
+}
