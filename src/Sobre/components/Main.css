@@ -218,3 +218,43 @@
     }
 
 }
+@media (width: 375px){
+    .p-sobre{
+        font-size: 0.7rem;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 1px;
+        margin-left: 0.5rem;
+        display: grid;
+    }
+    .txtDiv{
+        margin-top: 24rem;
+        
+    }
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        background-image: url('./fundoSobre.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 120vh;
+        width: 100%;
+        padding: 30px 0px 220px 0px;
+        margin-top: 0rem;
+        animation: aninSobre 1s;
+    }
+    .p-sobre4, .p-sobre2, .p-sobre3{
+        font-size:0.7rem;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        color: white;
+        letter-spacing: 1px;
+        text-decoration: none;
+    }
+
+}

@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 export default function Main() {
     return (
         <div className="mainProject">
+           
         <div className="projects">
-            <img className="dragonRecorder" src="RECORDER.gif" alt="RECORDES" />
+            
             <div className="projectsText">
                 <h1 className="txt-Projecth1">Projeto Dragon Science</h1>
                 <p className="txt-Project">
@@ -22,7 +23,7 @@ export default function Main() {
                     Foi feito afim de estudo e aprendizado, e também para ajudar as pessoas que querem aprender programação.
                 </p>
             </div>
-            
+            <img className="dragonRecorder" src="RECORDER.gif" alt="RECORDES" />
             </div>
             <div className="projects2">
             <img className="spotifyGift" src="spotify.gif" alt="SPOTIFY" />
