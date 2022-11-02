@@ -3,6 +3,12 @@ import './Main.css';
 import { Link } from "react-router-dom";
 
 export default function Main() {
+    const dragonScience = () => {
+        window.open("https://github.com/LucasSpott/DragonScience");
+    }
+    const spotifyClone = () => {
+        window.open("https://github.com/LucasSpott/Spotify-Clone");
+    }
     return (
         <div className="mainProject">
            
@@ -23,10 +29,10 @@ export default function Main() {
                     Foi feito afim de estudo e aprendizado, e também para ajudar as pessoas que querem aprender programação.
                 </p>
             </div>
-            <img className="dragonRecorder" src="RECORDER.gif" alt="RECORDES" />
+            <img onClick={() => dragonScience()} className="dragonRecorder" src="RECORDER.gif" alt="RECORDES" />
             </div>
             <div className="projects2">
-            <img className="spotifyGift" src="spotify.gif" alt="SPOTIFY" />
+            <img onClick={() => spotifyClone()} className="spotifyGift" src="spotify.gif" alt="SPOTIFY" />
             <div className="projectsText2">
                 <h1 className="txt-Projecth12">Projeto Spotify</h1>
                 <p className="txt-Project">

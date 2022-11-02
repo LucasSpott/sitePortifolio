@@ -2,6 +2,7 @@
     width: 50%;
     border-radius: 10px;
     margin-left: 1rem;
+    cursor: pointer;
 }
 .projects{
     display: flex;
@@ -46,6 +47,7 @@
     width: 50%;
     border-radius: 10px;
     margin-left: 1rem;
+    cursor: pointer;
 }
 .txt-Projecth12{
     margin-left: 10rem;
