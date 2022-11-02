@@ -4,6 +4,8 @@ import Home from "./Home/Home";
 import Contato from "./Contato/Contato";
 import Sobre from "./Sobre/Sobre";
 import Projetos from "./Projetos/Projetos";
+import Curriculo from "./Sobre/curriculoSession/Curriculo";
+
 
 export default function App() {
     return (
@@ -13,6 +15,7 @@ export default function App() {
             <Route path="/Contato" element={<Contato />} />
             <Route path="/Sobre" element={<Sobre />} />
             <Route path="/Projetos" element={<Projetos />} />
+            <Route path="/Curriculo" element={<Curriculo />} />
         </Routes>
         </BrowserRouter>
     );

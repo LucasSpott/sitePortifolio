@@ -5,12 +5,12 @@ export default function Main() {
     return (
         <div className="sobre">
             <div className="txtDiv">
-            <p className="p-sobre">Sou Lucas tenho 19 anos, Sou estudante
+            <p className="p-sobre">Sou Lucas tenho 19 anos, sou estudante
             de Engenharia de Software na Estácio. Sou apaixonado em tecnologia,
-            desde o ensino médio estou fazendo cursos na área, atualmente eu tenho conhecimento
+            desde o ensino médio estou fazendo cursos na área. Atualmente eu tenho conhecimento
             em desenvolvimento web, back-end e front-end. Minhas linguagens de qualificação são:
             HTML, CSS, JavaScript, React JS e Native, Git, Python, Django, um pouco de PHP, Firebase e Azure.
-            Meu inglês é intermediário pois eu sei ler mas, falar é mais complicado.
+            Meu inglês é intermediário pois eu sei ler mas falar é mais complicado.
             </p>
             <p className="p-sobre2">Eu amo música, geralmente eu passo a maior parte
             do tempo ouvindo, não gosto muito de filmes, raramente me agrada.

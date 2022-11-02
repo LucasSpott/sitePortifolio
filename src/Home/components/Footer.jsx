@@ -55,7 +55,7 @@ export default function Footer() {
             <div className="Sobre">
             <h1 className='h1-footer'>Sobre</h1>
             <Link to={"/Sobre"} className="p-footer">Sobre</Link>
-            <Link className="p-footer">Curriculo</Link>
+            <Link to={"/Curriculo"} className="p-footer">Curriculo</Link>
             </div>
             <div className="Projetos">
             <h1 className='h1-footer'>Projetos</h1>
