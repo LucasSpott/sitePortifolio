@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
-
-
     return (
             <div className='header'>
                 <Link to="/" className='h1-header'>Lu<span className='span-lucas'>cas</span></Link>
