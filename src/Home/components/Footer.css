@@ -55,7 +55,7 @@
     letter-spacing: 1px;
     color: rgb(240, 4, 248);
 }
-@media (max-width: 1000px) {
+@media (min-width: 200px) and (max-width: 1000px) {
     .h1-footer{
         font-size: 0.8rem;
     }
@@ -69,18 +69,4 @@
         padding: 20px 20px;
     }
 }
-@media (max-width: 500px) {
-    .h1-footer{
-        font-size: 0.7rem;
-    }
-    .p-footer{
-        font-size: 0.6rem;
-    }
-    .p-lucas{
-        font-size: 0.6rem;
-    }
-    .footer-content{
-        padding: 20px;
-    }
-}
-    
+
