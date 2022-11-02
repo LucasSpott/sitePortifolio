@@ -167,7 +167,7 @@
         opacity: 0;
     }
 }
-@media (max-width: 1000px){
+@media (max-width: 1200px){
     .main{
         height: 50vh;
         background-position: 50%;
@@ -228,57 +228,4 @@
         margin: 1rem;
         cursor: pointer;
     }
-}
-@media (max-width: 500px){
-    .main-text{
-        margin-top: 3rem;
-        margin-right: 1px;
-    }
-    .aninSpan{
-        font-size: 0.8rem;
-        font-weight: 300;
-        font-family: 'Noto Sans', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-top: 1rem;
-        margin-left: 0rem;
-        color : rgb(4, 252, 252);
-    }
-    .main{
-        padding: 10px;
-    }
-    .img-linguagem{
-        width: 2.5rem;
-        height: 2.5rem;
-        margin: 1rem;
-        cursor: pointer;
-    }
-    .h1-linguagem{
-        font-size: 2rem;
-        font-family: 'Comfortaa', cursive;
-        font-weight: 400;
-        margin-top: 1rem;
-        text-align: center;
-        letter-spacing: 1px;
-    }
-    .h1-main{
-        font-size: 1rem;
-        font-family: 'Noto Sans', sans-serif;
-        font-weight: 400;
-        letter-spacing: 1px;
-    }
-    .h6-main{
-        font-size: 0.5rem;
-        color: rgb(240, 4, 248);
-        font-family: 'Noto Sans', sans-serif;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
-    .p-main{
-        font-size: 0.5rem;
-        font-family: 'Noto Sans', sans-serif;
-        font-weight: 400;
-        letter-spacing: 1px;
-    }
-
 }
