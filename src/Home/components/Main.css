@@ -35,6 +35,16 @@
     font-weight: 400;
     letter-spacing: 1px;
 }
+.whappAbsolute{
+    position: fixed;
+    top: 36rem;
+    left: 76.5rem;
+    width: 100%;
+    height: 100%;
+}
+.wppImag{
+    animation: aninWpp 3s ease infinite;
+}
 .h6-main{
     font-size: 1rem;
     color: rgb(240, 4, 248);
@@ -102,6 +112,26 @@
         transform: translateX(0);
     }
 }
+@keyframes aninWpp {
+    0%{
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        opacity: 0;
+    }
+    25%{
+       opacity: 1;
+    }
+    50%{
+        transform: perspective(1000px) rotateX(0deg) rotateY(2deg);
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        transform: perspective(1000px) rotateX(0) rotateY(0);
+        opacity: 0;
+    }
+}
 @keyframes imgMove {
     0%{
         transform: scale(1);
@@ -149,6 +179,19 @@
     .main-text{
         margin-top: 5rem;
     }
+    .whappAbsolute{
+        position: fixed;
+        top: 34rem;
+        left: 20.5rem;
+        width: 100%;
+        height: 100%;
+    }
+    .wppImag{
+        width: 3rem;
+        height: 3rem;
+        animation: aninWpp 2.2s cubic-bezier(0.645, 0.045, 0.355, 1) infinite ;
+    }
+    
     .h1-main{
         font-size: 1.5rem;
         font-family: 'Noto Sans', sans-serif;

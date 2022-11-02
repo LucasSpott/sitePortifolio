@@ -49,6 +49,10 @@ export default function Main() {
                 }
 
             }, [aninSpan]);
+        
+        function handleClick() {
+            window.open('WhatsApp://send?text=Olá Lucas, quero marcar uma entrevista&phone=+5533998007983');
+        }
 
     return ( 
     <main className='main-content'>
@@ -67,7 +71,9 @@ export default function Main() {
             <div className='div-button'>
                 <Link className='button-file' onClick={() => handleClick('curriculo.pdf')}>Baixar Curriculo</Link>
             </div>
-            
+            </div>
+            <div className='whappAbsolute'>
+                <Link onClick={() => handleClick()}><img className='wppImag' src='https://img.icons8.com/doodle/74/000000/whatsapp.png'alt="whatsapp" /></Link>
             </div>
             <div className='Linguagem'>
             <h1 className='h1-linguagem'>Linguagens</h1>
